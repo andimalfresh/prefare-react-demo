@@ -1,0 +1,26 @@
+
+
+.navigationContainer {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+  .logoContainer  {
+    width: 30%
+  }
+}
+.navigationList {
+  justify-content: right;
+  ul {
+    list-style-type: none;
+    margin-inline-start: 0em;
+    li {
+      display: inline;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+}
