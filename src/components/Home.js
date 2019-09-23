@@ -1,11 +1,10 @@
 import React from 'react'
-import Parallax from './Parallax'
+import Herobanner from './Herobanner'
 
 const Home = () => {
     return (
         <div>
-            This is the Home page
-            <Parallax />
+            <Herobanner />
         </div>
     )
 }
