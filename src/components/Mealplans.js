@@ -3,7 +3,7 @@ import React from 'react'
 const Mealplans = () => {
     return (
         <div>
-            This is the sign up component
+            This is the Meal Plans component
         </div>
     )
 }
