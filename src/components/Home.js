@@ -1,9 +1,16 @@
 import React from 'react'
+import Herobanner from './Herobanner'
+import Highlights from './Highlights'
+import Menu from './Menu'
+import Threesteps from './Threesteps'
 
 const Home = () => {
     return (
         <div>
-            This is the Home page
+            <Herobanner />
+            <Highlights />
+            <Menu />
+            <Threesteps />
         </div>
     )
 }
